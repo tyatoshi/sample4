@@ -11,7 +11,10 @@ namespace sample4.Controllers
         // GET: top
         public ActionResult index()
         {
+            ViewData["inptmassage"] = "s#";
             return View();
         }
+
+
     }
 }

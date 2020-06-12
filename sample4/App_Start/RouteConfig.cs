@@ -19,11 +19,6 @@ namespace sample4
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
 
-            routes.MapRoute(
-                name: "Top",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Top", action = "Index", id = UrlParameter.Optional }
-            );
         }
     }
 }
